@@ -1,0 +1,450 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.navbar,
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__list {
+  gap: 94px;
+}
+
+.navbar__link {
+  /* Product */
+
+  /* Link */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* text */
+  color: #252b42;
+
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.navbar__link:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #fa4a0c;
+}
+
+/* intro  */
+
+.intro__wrapper {
+  background-image: url("../images/intrBGImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  margin-top: 50px;
+  padding: 180px 0;
+  /* height: 60vh; */
+}
+
+.intro__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.intro__toptext {
+  /* Food app */
+
+  /* H3 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: #f7f7f7;
+}
+
+.intro__title {
+  /* Why stay hungry when you can order form Bella Onojie */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.intro__subtext {
+  /* Download the bella onoje’s food app now on */
+
+  /* H4 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height, or 158% */
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #f7f7f7;
+}
+
+.intro__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+
+.intro__btn {
+  /* @ big button */
+
+  /* Auto layout */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+
+  width: 236px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+
+  background: #fa4a0c;
+  -webkit-box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+          box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+
+  /* H3 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.1px;
+
+  /* Light text */
+  color: #ffffff;
+
+  border: none;
+}
+
+.intro__btn--apple {
+  background-color: inherit;
+  border: 1px solid #fa4a0c;
+}
+
+.images__section {
+  position: relative;
+  top: -300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.border {
+  /* HR */
+
+  width: 884px;
+  height: 0px;
+
+  border: 3px solid #e4e4e4;
+}
+
+.works {
+}
+
+.works__maintitle {
+  /* How the app works */
+
+  width: auto;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  /* identical to box height, or 82% */
+  letter-spacing: 0.1px;
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+.works__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works__text {
+  /* Create an account */
+
+  width: 232px;
+  height: 36px;
+
+  /* H3 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.1px;
+
+  color: #fa4a0c;
+
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.works__title {
+  /* Create/login to an existing account to get started */
+
+  width: 561px;
+  height: 114px;
+
+  /* H2 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  /* or 142% */
+  letter-spacing: 0.2px;
+
+  /* text */
+  color: #252b42;
+
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 20px 0;
+}
+
+.works__subtext {
+  /* An account is created with your email and a desired password */
+
+  width: 467px;
+  height: 76px;
+
+  /* H4 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  /* or 158% */
+  letter-spacing: 0.2px;
+
+  /* second text */
+  color: #737373;
+
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 150px;
+}
+
+.download {
+  background-image: url("../images/downloadBGImages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__text {
+  /* Copywright 2020 Bella Onojie.com */
+
+  /* Subtitle */
+  font-family: "Montserrat";
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: right;
+  letter-spacing: 0.1px;
+
+  /* second text */
+  color: #5c5c5c;
+
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 30px 0;
+}
+
+path:hover {
+  fill: red;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+svg {
+  width: 30px;
+}
